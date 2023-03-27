@@ -12,7 +12,8 @@ Before running the script, make sure to install the following libraries:
 You can install these libraries by running the following command:
 
 ```
-pip install -r requirements.txt
+pip install requests beautifulsoup4
+
 ```
 
 
