@@ -6,6 +6,7 @@ This is a simple Python script for web scraping using BeautifulSoup library. It 
 
 Before running the script, make sure to install the following libraries:
 
+- csv
 - requests
 - BeautifulSoup
 
