@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import csv
 
 url = "https://leetcode.com/indrajit10/"
 
@@ -85,3 +86,17 @@ table.add_row("Total active days", total_active_days)
 table.add_row("Max streak", max_streak)
 
 console.print(table)
+
+# create a csv for each outputs
+# with open('leetcode_profile.csv', 'w', newline='') as file:
+#     writer = csv.writer(file)
+#     writer.writerow(["Attributes", "Value"])
+#     writer.writerow(["Name", profile_name_text])
+#     writer.writerow(["Rank", rank_text])
+#     writer.writerow(["Region", region_text])
+#     writer.writerow(["Contest attended", Contest_attended.text])
+#     writer.writerow(["Total problem solved", total_problem_solved.text])
+#     writer.writerow(["Badges count", badges_count.text])
+#     writer.writerow(["Submissions in last year", submissions_in_last_year.text])
+#     writer.writerow(["Total active days", total_active_days])
+#     writer.writerow(["Max streak", max_streak])

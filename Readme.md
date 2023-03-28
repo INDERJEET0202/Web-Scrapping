@@ -6,12 +6,16 @@ This is a simple Python script for web scraping using BeautifulSoup library. It 
 
 Before running the script, make sure to install the following libraries:
 
+- csv
 - requests
 - BeautifulSoup
 
 You can install these libraries by running the following command:
 
-`pip install requests BeautifulSoup4`
+```
+pip install requests beautifulsoup4
+
+```
 
 
 ## Usage
@@ -22,5 +26,4 @@ The script will prompt you to enter the username of the LeetCode user whose prof
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
+This project is not licensed under the MIT License - soo there is no lisence details.
