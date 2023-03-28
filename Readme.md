@@ -27,3 +27,4 @@ The script will prompt you to enter the username of the LeetCode user whose prof
 ## License
 
 This project is not licensed under the MIT License - soo there is no lisence details.
+
